@@ -1,0 +1,200 @@
+{
+  "data": {
+    "object": {
+      "id": "meta:account:act_sample_001",
+      "platform": "meta",
+      "object_type": "account",
+      "name": "Meta Sample Account"
+    },
+    "time_window": {
+      "date_start": "2026-05-01",
+      "date_stop": "2026-05-14",
+      "time_grain": "day",
+      "timezone": "Asia/Shanghai"
+    },
+    "metrics": [
+      {
+        "metric_name": "spend",
+        "metric_value": 1284.75,
+        "unit": "currency",
+        "metric_stage": "cost",
+        "goal_type": "quality_lead"
+      },
+      {
+        "metric_name": "impressions",
+        "metric_value": 186420,
+        "unit": "count",
+        "metric_stage": "delivery",
+        "goal_type": "quality_lead"
+      },
+      {
+        "metric_name": "clicks",
+        "metric_value": 4820,
+        "unit": "count",
+        "metric_stage": "click",
+        "goal_type": "quality_lead"
+      },
+      {
+        "metric_name": "link_clicks",
+        "metric_value": 3116,
+        "unit": "count",
+        "metric_stage": "click",
+        "goal_type": "quality_lead"
+      },
+      {
+        "metric_name": "landing_page_view",
+        "metric_value": 2384,
+        "unit": "count",
+        "metric_stage": "landing",
+        "goal_type": "quality_lead"
+      },
+      {
+        "metric_name": "quality_lead",
+        "metric_value": 93,
+        "unit": "count",
+        "metric_stage": "conversion",
+        "goal_type": "quality_lead"
+      },
+      {
+        "metric_name": "leads",
+        "metric_value": 126,
+        "unit": "count",
+        "metric_stage": "conversion",
+        "goal_type": "lead_form"
+      },
+      {
+        "metric_name": "messaging_started",
+        "metric_value": 47,
+        "unit": "count",
+        "metric_stage": "conversion",
+        "goal_type": "messaging"
+      },
+      {
+        "metric_name": "h5_lead",
+        "metric_value": 9,
+        "unit": "count",
+        "metric_stage": "conversion",
+        "goal_type": "h5_booking"
+      }
+    ],
+    "series": [
+      {
+        "date": "2026-05-12",
+        "metrics": {
+          "spend": 86.4,
+          "impressions": 12980,
+          "clicks": 338,
+          "link_clicks": 216,
+          "landing_page_view": 165,
+          "quality_lead": 7,
+          "leads": 9,
+          "messaging_started": 4,
+          "h5_lead": 1
+        }
+      },
+      {
+        "date": "2026-05-13",
+        "metrics": {
+          "spend": 91.2,
+          "impressions": 13740,
+          "clicks": 361,
+          "link_clicks": 229,
+          "landing_page_view": 172,
+          "quality_lead": 6,
+          "leads": 10,
+          "messaging_started": 3,
+          "h5_lead": 0
+        }
+      },
+      {
+        "date": "2026-05-14",
+        "metrics": {
+          "spend": 88.2,
+          "impressions": 12000,
+          "clicks": 340,
+          "link_clicks": 210,
+          "landing_page_view": 160,
+          "quality_lead": 8,
+          "leads": 11,
+          "messaging_started": 5,
+          "h5_lead": 1
+        }
+      }
+    ],
+    "breakdowns": [
+      {
+        "object": {
+          "id": "meta:ad_group:adset_sample_quality_001",
+          "platform": "meta",
+          "object_type": "ad_group",
+          "name": "Region A-Quality-Verified Form-样例单元",
+          "goal_type": "quality_lead"
+        },
+        "metrics": {
+          "spend": 612.8,
+          "impressions": 90450,
+          "clicks": 2310,
+          "link_clicks": 1512,
+          "landing_page_view": 1168,
+          "quality_lead": 64,
+          "leads": 72
+        }
+      },
+      {
+        "object": {
+          "id": "meta:ad_group:adset_sample_form_001",
+          "platform": "meta",
+          "object_type": "ad_group",
+          "name": "Region A-Standard Form-样例单元",
+          "goal_type": "lead_form"
+        },
+        "metrics": {
+          "spend": 348.2,
+          "impressions": 56120,
+          "clicks": 1510,
+          "link_clicks": 920,
+          "landing_page_view": 640,
+          "quality_lead": 12,
+          "leads": 54
+        }
+      },
+      {
+        "object": {
+          "id": "meta:ad_group:adset_sample_h5_001",
+          "platform": "meta",
+          "object_type": "ad_group",
+          "name": "Region A-H5-External Lead-样例单元",
+          "goal_type": "h5_booking"
+        },
+        "metrics": {
+          "spend": 188.4,
+          "impressions": 24850,
+          "clicks": 640,
+          "link_clicks": 436,
+          "landing_page_view": 382,
+          "quality_lead": 17,
+          "h5_lead": 9
+        }
+      }
+    ]
+  },
+  "meta": {
+    "request_id": "req_sample_account_metrics_001",
+    "api_version": "v0",
+    "generated_at": "2026-05-15T10:00:00+08:00",
+    "metric_version": "meta_v0_202605",
+    "sync_batch": "sync_meta_sample_20260515_001"
+  },
+  "errors": [
+    {
+      "code": "H5_LEAD_PURCHASE_ACTION",
+      "message": "Meta purchase action metrics represent external lead sample submissions in this account, not real purchases.",
+      "severity": "info",
+      "source": "sample_data",
+      "details": {
+        "metric_name": "h5_lead",
+        "raw_action_type": "purchase"
+      }
+    }
+  ]
+}

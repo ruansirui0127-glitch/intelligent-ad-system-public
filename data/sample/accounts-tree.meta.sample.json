@@ -1,0 +1,237 @@
+{
+  "data": {
+    "accounts": [
+      {
+        "id": "meta:account:act_sample_001",
+        "platform": "meta",
+        "object_type": "account",
+        "external_id": "act_sample_001",
+        "name": "Meta Sample Account",
+        "status": "ACTIVE",
+        "currency": "USD",
+        "timezone": "Asia/Shanghai",
+        "market_region": "Region A",
+        "children_count": {
+          "campaigns": 3,
+          "ad_groups": 4,
+          "ads": 5
+        },
+        "children": [
+          {
+            "id": "meta:campaign:cmp_sample_quality_001",
+            "platform": "meta",
+            "object_type": "campaign",
+            "external_id": "cmp_sample_quality_001",
+            "parent_id": "meta:account:act_sample_001",
+            "name": "Region A-Quality-样例计划",
+            "status": "ACTIVE",
+            "platform_object_type": "campaign",
+            "objective": "OUTCOME_LEADS",
+            "optimization_goal": null,
+            "goal_type": "quality_lead",
+            "market_region": "Region A",
+            "started_at": "2026-05-01T00:00:00+08:00",
+            "ended_at": null,
+            "children": [
+              {
+                "id": "meta:ad_group:adset_sample_quality_001",
+                "platform": "meta",
+                "object_type": "ad_group",
+                "external_id": "adset_sample_quality_001",
+                "parent_id": "meta:campaign:cmp_sample_quality_001",
+                "name": "Region A-Quality-Verified Form-样例单元",
+                "status": "ACTIVE",
+                "platform_object_type": "adset",
+                "objective": "OUTCOME_LEADS",
+                "optimization_goal": "QUALITY_LEAD",
+                "goal_type": "quality_lead",
+                "market_region": "Region A",
+                "started_at": "2026-05-01T00:00:00+08:00",
+                "ended_at": null,
+                "children": [
+                  {
+                    "id": "meta:ad:ad_sample_quality_001",
+                    "platform": "meta",
+                    "object_type": "ad",
+                    "external_id": "ad_sample_quality_001",
+                    "parent_id": "meta:ad_group:adset_sample_quality_001",
+                    "name": "Quality-素材A-样例广告",
+                    "status": "ACTIVE",
+                    "platform_object_type": "ad",
+                    "objective": "OUTCOME_LEADS",
+                    "optimization_goal": "QUALITY_LEAD",
+                    "goal_type": "quality_lead",
+                    "market_region": "Region A",
+                    "started_at": "2026-05-01T00:00:00+08:00",
+                    "ended_at": null
+                  },
+                  {
+                    "id": "meta:ad:ad_sample_quality_002",
+                    "platform": "meta",
+                    "object_type": "ad",
+                    "external_id": "ad_sample_quality_002",
+                    "parent_id": "meta:ad_group:adset_sample_quality_001",
+                    "name": "Quality-素材B-样例广告",
+                    "status": "PAUSED",
+                    "platform_object_type": "ad",
+                    "objective": "OUTCOME_LEADS",
+                    "optimization_goal": "QUALITY_LEAD",
+                    "goal_type": "quality_lead",
+                    "market_region": "Region A",
+                    "started_at": "2026-05-01T00:00:00+08:00",
+                    "ended_at": null
+                  }
+                ]
+              },
+              {
+                "id": "meta:ad_group:adset_sample_messaging_001",
+                "platform": "meta",
+                "object_type": "ad_group",
+                "external_id": "adset_sample_messaging_001",
+                "parent_id": "meta:campaign:cmp_sample_quality_001",
+                "name": "Region A-WA-Quality-样例单元",
+                "status": "ACTIVE",
+                "platform_object_type": "adset",
+                "objective": "OUTCOME_LEADS",
+                "optimization_goal": "QUALITY_LEAD",
+                "goal_type": "messaging",
+                "market_region": "Region A",
+                "started_at": "2026-05-03T00:00:00+08:00",
+                "ended_at": null,
+                "children": [
+                  {
+                    "id": "meta:ad:ad_sample_messaging_001",
+                    "platform": "meta",
+                    "object_type": "ad",
+                    "external_id": "ad_sample_messaging_001",
+                    "parent_id": "meta:ad_group:adset_sample_messaging_001",
+                    "name": "WA-Messaging-样例广告",
+                    "status": "ACTIVE",
+                    "platform_object_type": "ad",
+                    "objective": "OUTCOME_LEADS",
+                    "optimization_goal": "QUALITY_LEAD",
+                    "goal_type": "messaging",
+                    "market_region": "Region A",
+                    "started_at": "2026-05-03T00:00:00+08:00",
+                    "ended_at": null
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "meta:campaign:cmp_sample_form_001",
+            "platform": "meta",
+            "object_type": "campaign",
+            "external_id": "cmp_sample_form_001",
+            "parent_id": "meta:account:act_sample_001",
+            "name": "Region A-表单-样例计划",
+            "status": "ACTIVE",
+            "platform_object_type": "campaign",
+            "objective": "OUTCOME_LEADS",
+            "optimization_goal": null,
+            "goal_type": "lead_form",
+            "market_region": "Region A",
+            "started_at": "2026-05-01T00:00:00+08:00",
+            "ended_at": null,
+            "children": [
+              {
+                "id": "meta:ad_group:adset_sample_form_001",
+                "platform": "meta",
+                "object_type": "ad_group",
+                "external_id": "adset_sample_form_001",
+                "parent_id": "meta:campaign:cmp_sample_form_001",
+                "name": "Region A-Standard Form-样例单元",
+                "status": "ACTIVE",
+                "platform_object_type": "adset",
+                "objective": "OUTCOME_LEADS",
+                "optimization_goal": "LEAD_GENERATION",
+                "goal_type": "lead_form",
+                "market_region": "Region A",
+                "started_at": "2026-05-01T00:00:00+08:00",
+                "ended_at": null,
+                "children": [
+                  {
+                    "id": "meta:ad:ad_sample_form_001",
+                    "platform": "meta",
+                    "object_type": "ad",
+                    "external_id": "ad_sample_form_001",
+                    "parent_id": "meta:ad_group:adset_sample_form_001",
+                    "name": "Standard Form-样例广告",
+                    "status": "ACTIVE",
+                    "platform_object_type": "ad",
+                    "objective": "OUTCOME_LEADS",
+                    "optimization_goal": "LEAD_GENERATION",
+                    "goal_type": "lead_form",
+                    "market_region": "Region A",
+                    "started_at": "2026-05-01T00:00:00+08:00",
+                    "ended_at": null
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "meta:campaign:cmp_sample_h5_001",
+            "platform": "meta",
+            "object_type": "campaign",
+            "external_id": "cmp_sample_h5_001",
+            "parent_id": "meta:account:act_sample_001",
+            "name": "Region A-External Lead-样例计划",
+            "status": "PAUSED",
+            "platform_object_type": "campaign",
+            "objective": "OUTCOME_SALES",
+            "optimization_goal": null,
+            "goal_type": "h5_booking",
+            "market_region": "Region A",
+            "started_at": "2026-05-05T00:00:00+08:00",
+            "ended_at": null,
+            "children": [
+              {
+                "id": "meta:ad_group:adset_sample_h5_001",
+                "platform": "meta",
+                "object_type": "ad_group",
+                "external_id": "adset_sample_h5_001",
+                "parent_id": "meta:campaign:cmp_sample_h5_001",
+                "name": "Region A-H5-External Lead-样例单元",
+                "status": "PAUSED",
+                "platform_object_type": "adset",
+                "objective": "OUTCOME_SALES",
+                "optimization_goal": "OFFSITE_CONVERSIONS",
+                "goal_type": "h5_booking",
+                "market_region": "Region A",
+                "started_at": "2026-05-05T00:00:00+08:00",
+                "ended_at": null,
+                "children": [
+                  {
+                    "id": "meta:ad:ad_sample_h5_001",
+                    "platform": "meta",
+                    "object_type": "ad",
+                    "external_id": "ad_sample_h5_001",
+                    "parent_id": "meta:ad_group:adset_sample_h5_001",
+                    "name": "External Lead-样例广告",
+                    "status": "PAUSED",
+                    "platform_object_type": "ad",
+                    "objective": "OUTCOME_SALES",
+                    "optimization_goal": "OFFSITE_CONVERSIONS",
+                    "goal_type": "h5_booking",
+                    "market_region": "Region A",
+                    "started_at": "2026-05-05T00:00:00+08:00",
+                    "ended_at": null
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "meta": {
+    "request_id": "req_sample_accounts_tree_001",
+    "api_version": "v0",
+    "generated_at": "2026-05-15T10:00:00+08:00",
+    "sync_batch": "sync_meta_sample_20260515_001"
+  },
+  "errors": []
+}

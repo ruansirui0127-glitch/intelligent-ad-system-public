@@ -1,0 +1,65 @@
+{
+  "data": {
+    "current": {
+      "platform": "meta",
+      "status": "partial_success",
+      "last_sync_batch": "sync_meta_sample_20260515_001",
+      "last_started_at": "2026-05-15T09:55:00+08:00",
+      "last_finished_at": "2026-05-15T09:58:00+08:00",
+      "date_start": "2026-05-01",
+      "date_stop": "2026-05-14",
+      "objects_synced": {
+        "accounts": 1,
+        "campaigns": 3,
+        "ad_groups": 4,
+        "ads": 5,
+        "metric_facts": 36
+      },
+      "warnings": [
+        {
+          "code": "CUSTOM_EVENT_BUNDLE",
+          "message": "offsite_conversion.fb_pixel_custom is a confirmed custom business event bundle that includes sample_event_alpha, sample_event_beta, sample_event_gamma and related events."
+        },
+        {
+          "code": "H5_LEAD_PURCHASE_ACTION",
+          "message": "purchase and offsite_conversion.fb_pixel_purchase are Meta platform action names for external lead sample submissions in this account, not real purchases."
+        }
+      ]
+    },
+    "history": [
+      {
+        "platform": "meta",
+        "status": "success",
+        "last_sync_batch": "sync_meta_sample_20260514_001",
+        "last_started_at": "2026-05-14T09:55:00+08:00",
+        "last_finished_at": "2026-05-14T09:57:00+08:00",
+        "date_start": "2026-05-01",
+        "date_stop": "2026-05-13",
+        "objects_synced": {
+          "accounts": 1,
+          "campaigns": 3,
+          "ad_groups": 4,
+          "ads": 5,
+          "metric_facts": 32
+        },
+        "warnings": []
+      }
+    ]
+  },
+  "meta": {
+    "request_id": "req_sample_sync_status_001",
+    "api_version": "v0",
+    "generated_at": "2026-05-15T10:00:00+08:00"
+  },
+  "errors": [
+    {
+      "code": "SAMPLE_DATA_ONLY",
+      "message": "This file is synthetic sample data for contract development and does not contain real ad account data.",
+      "severity": "info",
+      "source": "sample_data",
+      "details": {
+        "account_id": "meta:account:act_sample_001"
+      }
+    }
+  ]
+}

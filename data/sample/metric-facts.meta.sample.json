@@ -1,0 +1,264 @@
+{
+  "data": {
+    "items": [
+      {
+        "fact_id": "fact_meta_sample_20260514_spend_001",
+        "platform": "meta",
+        "object_type": "ad_group",
+        "object_id": "meta:ad_group:adset_sample_quality_001",
+        "metric_name": "spend",
+        "metric_value": 44.8,
+        "unit": "currency",
+        "date": "2026-05-14",
+        "time_window": {
+          "date_start": "2026-05-14",
+          "date_stop": "2026-05-14",
+          "time_grain": "day",
+          "timezone": "Asia/Shanghai"
+        },
+        "metric_stage": "cost",
+        "goal_type": "quality_lead",
+        "metric_version": "meta_v0_202605",
+        "sync_batch": "sync_meta_sample_20260515_001",
+        "source_quality": "complete",
+        "raw_metric_name": "spend",
+        "dimensions": {
+          "optimization_goal": "QUALITY_LEAD"
+        },
+        "attribution_window": null
+      },
+      {
+        "fact_id": "fact_meta_sample_20260514_impressions_001",
+        "platform": "meta",
+        "object_type": "ad_group",
+        "object_id": "meta:ad_group:adset_sample_quality_001",
+        "metric_name": "impressions",
+        "metric_value": 6200,
+        "unit": "count",
+        "date": "2026-05-14",
+        "time_window": {
+          "date_start": "2026-05-14",
+          "date_stop": "2026-05-14",
+          "time_grain": "day",
+          "timezone": "Asia/Shanghai"
+        },
+        "metric_stage": "delivery",
+        "goal_type": "quality_lead",
+        "metric_version": "meta_v0_202605",
+        "sync_batch": "sync_meta_sample_20260515_001",
+        "source_quality": "complete",
+        "raw_metric_name": "impressions",
+        "dimensions": {
+          "optimization_goal": "QUALITY_LEAD"
+        },
+        "attribution_window": null
+      },
+      {
+        "fact_id": "fact_meta_sample_20260514_clicks_001",
+        "platform": "meta",
+        "object_type": "ad_group",
+        "object_id": "meta:ad_group:adset_sample_quality_001",
+        "metric_name": "clicks",
+        "metric_value": 178,
+        "unit": "count",
+        "date": "2026-05-14",
+        "time_window": {
+          "date_start": "2026-05-14",
+          "date_stop": "2026-05-14",
+          "time_grain": "day",
+          "timezone": "Asia/Shanghai"
+        },
+        "metric_stage": "click",
+        "goal_type": "quality_lead",
+        "metric_version": "meta_v0_202605",
+        "sync_batch": "sync_meta_sample_20260515_001",
+        "source_quality": "complete",
+        "raw_metric_name": "clicks",
+        "dimensions": {
+          "optimization_goal": "QUALITY_LEAD"
+        },
+        "attribution_window": null
+      },
+      {
+        "fact_id": "fact_meta_sample_20260514_link_clicks_001",
+        "platform": "meta",
+        "object_type": "ad_group",
+        "object_id": "meta:ad_group:adset_sample_quality_001",
+        "metric_name": "link_clicks",
+        "metric_value": 112,
+        "unit": "count",
+        "date": "2026-05-14",
+        "time_window": {
+          "date_start": "2026-05-14",
+          "date_stop": "2026-05-14",
+          "time_grain": "day",
+          "timezone": "Asia/Shanghai"
+        },
+        "metric_stage": "click",
+        "goal_type": "quality_lead",
+        "metric_version": "meta_v0_202605",
+        "sync_batch": "sync_meta_sample_20260515_001",
+        "source_quality": "complete",
+        "raw_metric_name": "inline_link_clicks",
+        "dimensions": {
+          "optimization_goal": "QUALITY_LEAD"
+        },
+        "attribution_window": null
+      },
+      {
+        "fact_id": "fact_meta_sample_20260514_lpv_001",
+        "platform": "meta",
+        "object_type": "ad_group",
+        "object_id": "meta:ad_group:adset_sample_quality_001",
+        "metric_name": "landing_page_view",
+        "metric_value": 86,
+        "unit": "count",
+        "date": "2026-05-14",
+        "time_window": {
+          "date_start": "2026-05-14",
+          "date_stop": "2026-05-14",
+          "time_grain": "day",
+          "timezone": "Asia/Shanghai"
+        },
+        "metric_stage": "landing",
+        "goal_type": "quality_lead",
+        "metric_version": "meta_v0_202605",
+        "sync_batch": "sync_meta_sample_20260515_001",
+        "source_quality": "complete",
+        "raw_metric_name": "actions",
+        "dimensions": {
+          "action_type": "landing_page_view",
+          "optimization_goal": "QUALITY_LEAD"
+        },
+        "attribution_window": "7d_click"
+      },
+      {
+        "fact_id": "fact_meta_sample_20260514_quality_lead_001",
+        "platform": "meta",
+        "object_type": "ad_group",
+        "object_id": "meta:ad_group:adset_sample_quality_001",
+        "metric_name": "quality_lead",
+        "metric_value": 8,
+        "unit": "count",
+        "date": "2026-05-14",
+        "time_window": {
+          "date_start": "2026-05-14",
+          "date_stop": "2026-05-14",
+          "time_grain": "day",
+          "timezone": "Asia/Shanghai"
+        },
+        "metric_stage": "conversion",
+        "goal_type": "quality_lead",
+        "metric_version": "meta_v0_202605",
+        "sync_batch": "sync_meta_sample_20260515_001",
+        "source_quality": "complete",
+        "raw_metric_name": "actions",
+        "dimensions": {
+          "action_type": "offsite_conversion.fb_pixel_custom",
+          "optimization_goal": "QUALITY_LEAD",
+          "mapping_status": "confirmed_custom_event_bundle",
+          "business_mapping": "custom_business_event_bundle",
+          "business_event_codes": [
+            "sample_event_alpha",
+            "sample_event_beta",
+            "sample_event_gamma"
+          ]
+        },
+        "attribution_window": "7d_click"
+      },
+      {
+        "fact_id": "fact_meta_sample_20260514_leads_001",
+        "platform": "meta",
+        "object_type": "ad_group",
+        "object_id": "meta:ad_group:adset_sample_form_001",
+        "metric_name": "leads",
+        "metric_value": 11,
+        "unit": "count",
+        "date": "2026-05-14",
+        "time_window": {
+          "date_start": "2026-05-14",
+          "date_stop": "2026-05-14",
+          "time_grain": "day",
+          "timezone": "Asia/Shanghai"
+        },
+        "metric_stage": "conversion",
+        "goal_type": "lead_form",
+        "metric_version": "meta_v0_202605",
+        "sync_batch": "sync_meta_sample_20260515_001",
+        "source_quality": "complete",
+        "raw_metric_name": "actions",
+        "dimensions": {
+          "action_type": "lead",
+          "optimization_goal": "LEAD_GENERATION"
+        },
+        "attribution_window": "7d_click"
+      },
+      {
+        "fact_id": "fact_meta_sample_20260514_messaging_001",
+        "platform": "meta",
+        "object_type": "ad_group",
+        "object_id": "meta:ad_group:adset_sample_messaging_001",
+        "metric_name": "messaging_started",
+        "metric_value": 5,
+        "unit": "count",
+        "date": "2026-05-14",
+        "time_window": {
+          "date_start": "2026-05-14",
+          "date_stop": "2026-05-14",
+          "time_grain": "day",
+          "timezone": "Asia/Shanghai"
+        },
+        "metric_stage": "conversion",
+        "goal_type": "messaging",
+        "metric_version": "meta_v0_202605",
+        "sync_batch": "sync_meta_sample_20260515_001",
+        "source_quality": "complete",
+        "raw_metric_name": "actions",
+        "dimensions": {
+          "action_type": "onsite_conversion.messaging_conversation_started_7d",
+          "optimization_goal": "QUALITY_LEAD"
+        },
+        "attribution_window": "7d_click"
+      },
+      {
+        "fact_id": "fact_meta_sample_20260514_h5_lead_001",
+        "platform": "meta",
+        "object_type": "ad_group",
+        "object_id": "meta:ad_group:adset_sample_h5_001",
+        "metric_name": "h5_lead",
+        "metric_value": 1,
+        "unit": "count",
+        "date": "2026-05-14",
+        "time_window": {
+          "date_start": "2026-05-14",
+          "date_stop": "2026-05-14",
+          "time_grain": "day",
+          "timezone": "Asia/Shanghai"
+        },
+        "metric_stage": "conversion",
+        "goal_type": "h5_booking",
+        "metric_version": "meta_v0_202605",
+        "sync_batch": "sync_meta_sample_20260515_001",
+        "source_quality": "complete",
+        "raw_metric_name": "actions",
+        "dimensions": {
+          "action_type": "purchase",
+          "optimization_goal": "OFFSITE_CONVERSIONS",
+          "mapping_status": "confirmed_h5_lead_not_purchase",
+          "business_mapping": "h5_lead_submission"
+        },
+        "attribution_window": "7d_click"
+      }
+    ]
+  },
+  "meta": {
+    "request_id": "req_sample_metric_facts_001",
+    "api_version": "v0",
+    "generated_at": "2026-05-15T10:00:00+08:00",
+    "pagination": {
+      "limit": 100,
+      "next_cursor": null
+    }
+  },
+  "errors": []
+}

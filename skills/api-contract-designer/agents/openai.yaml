@@ -1,0 +1,4 @@
+interface:
+  display_name: "API Contract Designer"
+  short_description: "Design and validate V0 API contracts, mock payloads, and adapter boundaries"
+  default_prompt: "Review this API contract change for the intelligent advertising system."

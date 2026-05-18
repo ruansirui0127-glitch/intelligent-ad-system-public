@@ -1,0 +1,10 @@
+{
+  "platform": "xiaohongshu",
+  "app_id": "your_app_id",
+  "access_token": "replace_with_access_token",
+  "refresh_token": "replace_with_refresh_token",
+  "expires_at": "2026-01-01T00:00:00+08:00",
+  "refresh_token_expires_at": "2026-01-31T00:00:00+08:00",
+  "advertiser_ids": ["your_advertiser_id"]
+}
+
